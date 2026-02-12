@@ -1,0 +1,182 @@
+{
+    "_index": ".ds-metrics-hostmetricsreceiver.otel-default-2026.02.12-000002",
+    "_id": "1dPaX4TTsKYn2TjHAAABnFIiVtU",
+    "_version": 1,
+    "_source": {
+      "@timestamp": "2026-02-12T13:55:08.117Z",
+      "_metric_names_hash": "51188d8099a9849b",
+      "data_stream": {
+        "dataset": "hostmetricsreceiver.otel",
+        "namespace": "default",
+        "type": "metrics"
+      },
+      "metrics": {
+        "system.cpu.logical.count": 4
+      },
+      "resource": {
+        "attributes": {
+          "host.arch": "amd64",
+          "host.cpu.cache.l2.size": 512,
+          "host.cpu.family": "25",
+          "host.cpu.model.id": "1",
+          "host.cpu.model.name": "AMD EPYC 7763 64-Core Processor",
+          "host.cpu.stepping": "1",
+          "host.cpu.vendor.id": "AuthenticAMD",
+          "host.ip": [
+            "10.1.1.63",
+            "172.17.0.1",
+            "fe80::222:48ff:fec2:a1a2"
+          ],
+          "host.mac": [
+            "00-22-48-C2-A1-A2",
+            "4A-CC-60-6E-B9-5D"
+          ],
+          "host.name": "runnervmwffz4",
+          "instance": "11-6-57",
+          "os.description": "Ubuntu 24.04.3 LTS (Noble Numbat) (Linux runnervmwffz4 6.11.0-1018-azure #18~24.04.1-Ubuntu SMP Sat Jun 28 04:46:03 UTC 2025 x86_64)",
+          "os.type": "linux"
+        },
+        "schema_url": "https://opentelemetry.io/schemas/1.9.0"
+      },
+      "scope": {
+        "name": "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/hostmetricsreceiver/internal/scraper/cpuscraper",
+        "version": "0.142.0"
+      },
+      "start_timestamp": "2026-02-12T12:50:12.000Z",
+      "unit": "{cpu}"
+    },
+    "fields": {
+      "instance": [
+        "11-6-57"
+      ],
+      "resource.attributes.host.ip": [
+        "10.1.1.63",
+        "172.17.0.1",
+        "fe80::222:48ff:fec2:a1a2"
+      ],
+      "scope.name": [
+        "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/hostmetricsreceiver/internal/scraper/cpuscraper"
+      ],
+      "resource.attributes.host.cpu.family": [
+        "25"
+      ],
+      "resource.attributes.os.type": [
+        "linux"
+      ],
+      "resource.attributes.os.description": [
+        "Ubuntu 24.04.3 LTS (Noble Numbat) (Linux runnervmwffz4 6.11.0-1018-azure #18~24.04.1-Ubuntu SMP Sat Jun 28 04:46:03 UTC 2025 x86_64)"
+      ],
+      "start_timestamp": [
+        "2026-02-12T12:50:12.000Z"
+      ],
+      "host.os.full": [
+        "Ubuntu 24.04.3 LTS (Noble Numbat) (Linux runnervmwffz4 6.11.0-1018-azure #18~24.04.1-Ubuntu SMP Sat Jun 28 04:46:03 UTC 2025 x86_64)"
+      ],
+      "host.cpu.family": [
+        "25"
+      ],
+      "_metric_names_hash": [
+        "51188d8099a9849b"
+      ],
+      "os.type": [
+        "linux"
+      ],
+      "host.cpu.model.name": [
+        "AMD EPYC 7763 64-Core Processor"
+      ],
+      "host.mac": [
+        "00-22-48-C2-A1-A2",
+        "4A-CC-60-6E-B9-5D"
+      ],
+      "host.ip": [
+        "10.1.1.63",
+        "172.17.0.1",
+        "fe80::222:48ff:fec2:a1a2"
+      ],
+      "os.description": [
+        "Ubuntu 24.04.3 LTS (Noble Numbat) (Linux runnervmwffz4 6.11.0-1018-azure #18~24.04.1-Ubuntu SMP Sat Jun 28 04:46:03 UTC 2025 x86_64)"
+      ],
+      "resource.attributes.host.cpu.model.name": [
+        "AMD EPYC 7763 64-Core Processor"
+      ],
+      "host.arch": [
+        "amd64"
+      ],
+      "resource.schema_url": [
+        "https://opentelemetry.io/schemas/1.9.0"
+      ],
+      "resource.attributes.host.cpu.cache.l2.size": [
+        512
+      ],
+      "resource.attributes.host.mac": [
+        "00-22-48-C2-A1-A2",
+        "4A-CC-60-6E-B9-5D"
+      ],
+      "host.name": [
+        "runnervmwffz4"
+      ],
+      "resource.attributes.host.cpu.model.id": [
+        "1"
+      ],
+      "resource.attributes.host.name": [
+        "runnervmwffz4"
+      ],
+      "host.cpu.model.id": [
+        "1"
+      ],
+      "host.cpu.cache.l2.size": [
+        512
+      ],
+      "resource.attributes.host.cpu.vendor.id": [
+        "AuthenticAMD"
+      ],
+      "resource.attributes.instance": [
+        "11-6-57"
+      ],
+      "system.cpu.logical.count": [
+        4
+      ],
+      "resource.attributes.host.arch": [
+        "amd64"
+      ],
+      "data_stream.namespace": [
+        "default"
+      ],
+      "host.cpu.stepping": [
+        "1"
+      ],
+      "data_stream.type": [
+        "metrics"
+      ],
+      "host.cpu.vendor.id": [
+        "AuthenticAMD"
+      ],
+      "metrics.system.cpu.logical.count": [
+        4
+      ],
+      "host.architecture": [
+        "amd64"
+      ],
+      "unit": [
+        "{cpu}"
+      ],
+      "@timestamp": [
+        "2026-02-12T13:55:08.117Z"
+      ],
+      "resource.attributes.host.cpu.stepping": [
+        "1"
+      ],
+      "host.os.platform": [
+        "linux"
+      ],
+      "data_stream.dataset": [
+        "hostmetricsreceiver.otel"
+      ],
+      "scope.version": [
+        "0.142.0"
+      ],
+      "event.dataset": [
+        "hostmetricsreceiver.otel"
+      ]
+    }
+  }
